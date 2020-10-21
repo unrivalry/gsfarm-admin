@@ -25,7 +25,7 @@
 
     <div class="login-logo">
         <a target="_blank" rel="noopener noreferrer" 
-           href="https://appseed.us/admin-dashboards/django-dashboard-adminlte">Django <b>Admin</b>LTE</a>
+           href="/">GStackFarm <b>Admin</b></a>
     </div>
 
     <!-- /.login-logo -->
@@ -34,9 +34,7 @@
 
             <p class="login-box-msg">
             {% if msg %}
-                {{ msg | safe }}
-            {% else %}
-                Default credentials: <strong>test / ApS12_ZZs8</strong>
+                <div style="background:red; color:white; text-align:center; margin-top:-20px;"> {{ msg | safe }} </div>
             {% endif %}
         </p>
 
@@ -77,16 +75,14 @@
           </div>
         </form>
 
-        <br /><br />
+        <br />
 
         <div class="text-center">
             Not a member? <a href="{% url 'register' %}" class="text-center">Register</a>
             <br />
             <br />
-            &copy; ColorLib 
-            <a target="_blank" rel="noopener noreferrer"
-               href="https://appseed.us/admin-dashboards/django-dashboard-adminlte"><b>Admin</b>LTE</a> 
-            - coded by <a target="_blank" rel="noopener noreferrer" href="https://appseed.us">AppSeed</a>.
+            &copy; 2020
+            <a target="" rel="noopener noreferrer" href="/"><b>GStackFarm</b></a>
         </div>
 
       </div>
